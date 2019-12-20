@@ -13,6 +13,7 @@ import {EmailAuthNavigator} from '../features/EmailAuth/navigator';
 import { CameraNavigator } from "../features/UserCamera/navigator";
 
 //@BlueprintImportInsertion
+import { AchievementBlueprintNavigator } from '../features/AchievementBlueprint/navigator';
 import { Dashboard2BlueprintNavigator } from '../features/Dashboard2Blueprint/navigator';
 import { Dashboard1BlueprintNavigator } from '../features/Dashboard1Blueprint/navigator';
 import { ProfilesBlueprintNavigator } from '../features/ProfilesBlueprint/navigator';
@@ -57,6 +58,7 @@ const AppNavigator = {
     
 
     //@BlueprintNavigationInsertion
+AchievementBlueprint: { screen: AchievementBlueprintNavigator },
 Dashboard2Blueprint: { screen: Dashboard2BlueprintNavigator },
 Dashboard1Blueprint: { screen: Dashboard1BlueprintNavigator },
 ProfilesBlueprint: { screen: ProfilesBlueprintNavigator },
